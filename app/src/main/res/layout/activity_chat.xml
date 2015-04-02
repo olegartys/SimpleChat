@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_view_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/chat_backgrond"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:layout_margin="5dp"
+        android:elevation="20dp"
+        android:translationZ="20dp"
+        android:fastScrollEnabled="false">
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/llMsgCompose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:measureWithLargestChild="false"
+        android:nestedScrollingEnabled="false"
+        android:background="@drawable/text_box">
+
+        <EditText
+            android:id="@+id/inputMsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:isScrollContainer="true"
+            android:enabled="true"
+            android:elegantTextHeight="false"
+            android:editable="true"
+            android:maxLength="512"
+            android:hint="@string/input_msg_hint"
+            android:autoText="false"
+            android:layout_gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:maxHeight="120dp"
+            android:background="@color/secondary_color"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/button_send"
+            android:background="@drawable/bg_texture"
+            style="@style/ButtonStyle"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-11fb1a6abc6426fd7eb3f5b3f53bb0a6ec277561.jar" />
+    </item>
+    <item
+        jar="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-44ee12f35b3e482baa03d4db1fdd1832922f118d.jar" />
+    </item>
+    <item
+        jar="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-cf4516528d391a2d8c20c1c9f8b1e559d0751748.jar" />
+    </item>
+    <item
+        jar="/home/olegartys/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8b72ec06364763c6253fde3dd0e73cf11070029c.jar" />
+    </item>
+    <item
+        jar="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddb8ff19c902eab4a3e970ed63fa6c2e2bc1e848">
+        <dex dex="/home/olegartys/AndroidStudioProjects/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-3e21498a6f9f709a89960274453b243266d72450.jar" />
+    </item>
+
+</items>

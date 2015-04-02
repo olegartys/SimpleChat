@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Chat activity theme -->
+    <style name="ChatActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Action bar style -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/bg_texture</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/bg_texture</item>
+
+    </style>
+
+    <!-- Style for buttons -->
+    <style name="ButtonStyle">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>
