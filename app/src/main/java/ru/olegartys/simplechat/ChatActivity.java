@@ -23,7 +23,6 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-
 import java.util.ArrayList;
 
 import ru.olegartys.chat_message.Message;
